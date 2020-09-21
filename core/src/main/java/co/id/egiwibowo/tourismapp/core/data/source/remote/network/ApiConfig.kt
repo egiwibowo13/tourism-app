@@ -1,4 +1,4 @@
-package com.dicoding.tourismapp.core.data.source.remote.network
+package co.id.egiwibowo.tourismapp.core.data.source.remote.network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

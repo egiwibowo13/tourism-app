@@ -1,4 +1,4 @@
-package com.dicoding.tourismapp.core.data.source.local.entity
+package co.id.egiwibowo.tourismapp.core.data.source.local.entity
 
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo

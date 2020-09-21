@@ -1,8 +1,7 @@
-package com.dicoding.tourismapp.core.data.source.local
+package co.id.egiwibowo.tourismapp.core.data.source.local
 
-import androidx.lifecycle.LiveData
-import com.dicoding.tourismapp.core.data.source.local.entity.TourismEntity
-import com.dicoding.tourismapp.core.data.source.local.room.TourismDao
+import co.id.egiwibowo.tourismapp.core.data.source.local.entity.TourismEntity
+import co.id.egiwibowo.tourismapp.core.data.source.local.room.TourismDao
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 import javax.inject.Singleton

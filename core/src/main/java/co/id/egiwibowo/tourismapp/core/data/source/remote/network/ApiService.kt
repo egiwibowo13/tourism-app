@@ -1,6 +1,6 @@
-package com.dicoding.tourismapp.core.data.source.remote.network
+package co.id.egiwibowo.tourismapp.core.data.source.remote.network
 
-import com.dicoding.tourismapp.core.data.source.remote.response.ListTourismResponse
+import co.id.egiwibowo.tourismapp.core.data.source.remote.response.ListTourismResponse
 import retrofit2.http.GET
 
 interface ApiService {

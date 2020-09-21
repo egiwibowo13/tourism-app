@@ -1,11 +1,9 @@
-package com.dicoding.tourismapp.core.data
+package co.id.egiwibowo.tourismapp.core.data
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MediatorLiveData
-import androidx.lifecycle.map
-import com.dicoding.tourismapp.core.data.source.remote.network.ApiResponse
 
-import com.dicoding.tourismapp.core.utils.AppExecutors
+import co.id.egiwibowo.tourismapp.core.data.source.remote.network.ApiResponse
+
+import co.id.egiwibowo.tourismapp.core.utils.AppExecutors
 import kotlinx.coroutines.flow.*
 
 abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecutors: AppExecutors) {
@@ -18,18 +16,34 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
             when (val apiResponse = createCall().first()) {
                 is ApiResponse.Success -> {
                     saveCallResult(apiResponse.data)
-                    emitAll(loadFromDB().map { Resource.Success(it) })
+                    emitAll(loadFromDB().map {
+                        Resource.Success(
+                            it
+                        )
+                    })
                 }
                 is ApiResponse.Empty -> {
-                    emitAll(loadFromDB().map { Resource.Success(it) })
+                    emitAll(loadFromDB().map {
+                        Resource.Success(
+                            it
+                        )
+                    })
                 }
                 is ApiResponse.Error -> {
                     onFetchFailed()
-                    emit(Resource.Error(apiResponse.errorMessage))
+                    emit(
+                        Resource.Error(
+                            apiResponse.errorMessage
+                        )
+                    )
                 }
             }
         } else {
-            emitAll(loadFromDB().map { Resource.Success(it) })
+            emitAll(loadFromDB().map {
+                Resource.Success(
+                    it
+                )
+            })
         }
     }
 

@@ -1,4 +1,4 @@
-package com.dicoding.tourismapp.core.utils
+package co.id.egiwibowo.tourismapp.core.utils
 
 import android.os.Handler
 import android.os.Looper

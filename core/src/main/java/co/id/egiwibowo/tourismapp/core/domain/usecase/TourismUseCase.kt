@@ -1,8 +1,8 @@
-package com.dicoding.tourismapp.core.domain.usecase
+package co.id.egiwibowo.tourismapp.core.domain.usecase
 
 import androidx.lifecycle.LiveData
-import com.dicoding.tourismapp.core.data.Resource
-import com.dicoding.tourismapp.core.domain.model.Tourism
+import co.id.egiwibowo.tourismapp.core.data.Resource
+import co.id.egiwibowo.tourismapp.core.domain.model.Tourism
 import kotlinx.coroutines.flow.Flow
 
 interface TourismUseCase {

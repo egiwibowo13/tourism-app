@@ -1,8 +1,8 @@
-package com.dicoding.tourismapp.core.utils
+package co.id.egiwibowo.tourismapp.core.utils
 
-import com.dicoding.tourismapp.core.data.source.local.entity.TourismEntity
-import com.dicoding.tourismapp.core.data.source.remote.response.TourismResponse
-import com.dicoding.tourismapp.core.domain.model.Tourism
+import co.id.egiwibowo.tourismapp.core.data.source.local.entity.TourismEntity
+import co.id.egiwibowo.tourismapp.core.data.source.remote.response.TourismResponse
+import co.id.egiwibowo.tourismapp.core.domain.model.Tourism
 
 object DataMapper {
     fun mapResponsesToEntities(input: List<TourismResponse>): List<TourismEntity> {

@@ -1,7 +1,7 @@
-package com.dicoding.tourismapp.core.di
+package co.id.egiwibowo.tourismapp.core.di
 
-import com.dicoding.tourismapp.core.data.TourismRepository
-import com.dicoding.tourismapp.core.domain.repository.ITourismRepository
+import co.id.egiwibowo.tourismapp.core.data.TourismRepository
+import co.id.egiwibowo.tourismapp.core.domain.repository.ITourismRepository
 import dagger.Binds
 import dagger.Module
 

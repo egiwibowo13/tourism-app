@@ -1,6 +1,6 @@
-package com.dicoding.tourismapp.core.di
+package co.id.egiwibowo.tourismapp.core.di
 
-import com.dicoding.tourismapp.core.data.source.remote.network.ApiService
+import co.id.egiwibowo.tourismapp.core.data.source.remote.network.ApiService
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient

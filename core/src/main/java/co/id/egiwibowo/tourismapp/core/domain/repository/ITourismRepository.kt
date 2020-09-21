@@ -1,8 +1,7 @@
-package com.dicoding.tourismapp.core.domain.repository
+package co.id.egiwibowo.tourismapp.core.domain.repository
 
-import androidx.lifecycle.LiveData
-import com.dicoding.tourismapp.core.data.Resource
-import com.dicoding.tourismapp.core.domain.model.Tourism
+import co.id.egiwibowo.tourismapp.core.data.Resource
+import co.id.egiwibowo.tourismapp.core.domain.model.Tourism
 import kotlinx.coroutines.flow.Flow
 
 interface ITourismRepository {

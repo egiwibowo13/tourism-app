@@ -1,7 +1,7 @@
 package com.dicoding.tourismapp.di
 
-import com.dicoding.tourismapp.core.domain.usecase.TourismInteractor
-import com.dicoding.tourismapp.core.domain.usecase.TourismUseCase
+import co.id.egiwibowo.tourismapp.core.domain.usecase.TourismInteractor
+import co.id.egiwibowo.tourismapp.core.domain.usecase.TourismUseCase
 import dagger.Binds
 import dagger.Module
 

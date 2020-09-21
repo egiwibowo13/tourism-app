@@ -1,9 +1,9 @@
-package com.dicoding.tourismapp.core.di
+package co.id.egiwibowo.tourismapp.core.di
 
 import android.content.Context
 import androidx.room.Room
-import com.dicoding.tourismapp.core.data.source.local.room.TourismDao
-import com.dicoding.tourismapp.core.data.source.local.room.TourismDatabase
+import co.id.egiwibowo.tourismapp.core.data.source.local.room.TourismDao
+import co.id.egiwibowo.tourismapp.core.data.source.local.room.TourismDatabase
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

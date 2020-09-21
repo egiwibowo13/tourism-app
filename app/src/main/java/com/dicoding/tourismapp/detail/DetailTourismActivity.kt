@@ -4,12 +4,11 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.dicoding.tourismapp.MyApplication
 import com.dicoding.tourismapp.R
-import com.dicoding.tourismapp.core.domain.model.Tourism
-import com.dicoding.tourismapp.core.ui.ViewModelFactory
+import co.id.egiwibowo.tourismapp.core.domain.model.Tourism
+import com.dicoding.tourismapp.ui.ViewModelFactory
 import kotlinx.android.synthetic.main.activity_detail_tourism.*
 import kotlinx.android.synthetic.main.content_detail_tourism.*
 import javax.inject.Inject

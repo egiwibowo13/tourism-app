@@ -1,4 +1,4 @@
-package com.dicoding.tourismapp.core.ui
+package com.dicoding.tourismapp.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

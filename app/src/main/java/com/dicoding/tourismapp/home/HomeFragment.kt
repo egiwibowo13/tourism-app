@@ -9,13 +9,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.tourismapp.MyApplication
 import com.dicoding.tourismapp.R
-import com.dicoding.tourismapp.core.data.Resource
-import com.dicoding.tourismapp.core.ui.TourismAdapter
-import com.dicoding.tourismapp.core.ui.ViewModelFactory
+import co.id.egiwibowo.tourismapp.core.data.Resource
+import com.dicoding.tourismapp.ui.TourismAdapter
+import com.dicoding.tourismapp.ui.ViewModelFactory
 import com.dicoding.tourismapp.detail.DetailTourismActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.view_error.*
